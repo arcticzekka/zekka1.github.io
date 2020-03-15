@@ -1,0 +1,299 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-image:url(images/kDwMpC.gif);
+    min-width:715px;        
+    width: auto !important;
+    width:1000px; 
+
+}
+h1{
+    font-size: 50px;
+    font-family:sans-serif;
+    color:rgb(90, 90, 90);
+    position: fixed;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -250%);
+    animation:fade 1.5s;
+}
+h1.mainh1{
+    font-size: 65px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(59, 116, 113);
+    position: fixed;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    animation:fade 2.5s;
+    text-align: center;
+}
+a { text-decoration: none; color:rgb(59, 116, 113);}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+ul.contactul{    
+    animation:fade 1.5s;
+}
+
+ul.contactul li.contactfirst:hover{
+    text-decoration: underline;
+}
+ul.contactul li.contactfirst{
+    margin-left: 30px;
+}
+ul li.oninfo{
+    color: rgb(90, 90, 90);
+}
+ul li.oncontacts{
+    color: rgb(90, 90, 90);
+}
+ul li.onprojects{
+    color: rgb(90, 90, 90);
+}
+ul li.onmain{
+    color: rgb(90, 90, 90);
+}
+
+h1.infoh1{
+    color:rgb(90, 90, 90);
+    font-family: 'Courier New', Courier, monospace;
+    left:50%;
+
+}
+h2.projectsh2{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(59, 116, 113);
+    position: absolute;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    list-style-type: none;
+    animation:fade 1.5s;
+    
+}
+h2.projectsh2:hover {
+    text-decoration: underline;
+}
+ul.mainul li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-style: bold;
+}
+
+
+ul.mainul li:first-child{
+    margin-left: 5px;
+}
+ul.mainul li.infohover:hover{
+    transform: scale(1.3);
+    font-weight: 900;
+}
+ul.mainul li.projects:hover{
+    transform: scale(1.3);
+    font-weight: 900;
+}
+ul.mainul li.main:hover{
+    transform: scale(1.3);
+    font-weight: 900;
+}
+ul.mainul li.contacts:hover{
+    transform: scale(1.3);
+    font-weight: 900;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+button.mainbutton{
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    animation:fade 1.5s;
+    background-color:black;
+    text-align: center;
+    padding: 12px 20px;
+    border:none;
+    cursor: pointer;
+    transition: 0.4s;
+    animation:buttonfade 1s;
+    border-radius: 8px;
+    border-color: black;
+    color:rgb(59, 116, 113);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button.secondbutton{
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    animation:fade 1.5s;
+    background-color:black;
+    text-align: center;
+    padding: 12px 20px;
+    border:none;
+    cursor: pointer;
+    transition: 0.4s;
+    animation:buttonfade3 1s;
+    border-radius: 8px;
+    border-color: black;
+    color:rgb(59, 116, 113);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button.thirdbutton{
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    animation:fade 1.5s;
+    background-color:black;
+    text-align: center;
+    padding: 12px 20px;
+    border:none;
+    cursor: pointer;
+    transition: 0.4s;
+    animation:buttonfade2 1s;
+    border-radius: 8px;
+    border-color: black;
+    color:rgb(59, 116, 113);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button.mainbutton:hover{
+    background-color: rgb(56, 56, 56);
+    color:rgb(59, 116, 113);
+}
+button.secondbutton:hover{
+    background-color: rgb(56, 56, 56);
+    color:rgb(59, 116, 113);
+}
+button.thirdbutton:hover{
+    background-color: rgb(56, 56, 56);
+    color:rgb(59, 116, 113);
+}
+@keyframes buttonfade{
+    from {
+        top:100%;
+    }
+    to{
+        top:70%;
+    }
+}
+@keyframes buttonfade2{
+    from {
+        top:100%;
+    }
+    to{
+        top:80%;
+    }
+}
+@keyframes buttonfade3{
+    from {
+        top:110%;
+    }
+    to{
+        top:80%;
+    }
+}
+@media screen and (max-width:715px) {
+    ul.mainul li{
+        margin-left:40px;
+    }
+    h1.infoh1{
+        margin-left:45px;
+        position: absolute;
+    }
+    h2.infoh2{
+        margin-top: 400px;
+        position: absolute;
+    }
+    h2.projectsh2{
+        left:50%;
+        position: absolute;
+        text-align: center;
+        margin-top: 100px;
+    }
+    h1.shop{
+        left:50%;
+    }
+    h2.contacth2{     
+        position: absolute;
+        margin-left: 10px;
+        top:5%;
+    }
+    ul.contactul{
+        margin-left:10px;
+        color: rgb(59, 116, 113);
+        font-size: 30px;
+        list-style:none;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        position: absolute;
+    }
+    ul.contactul li.contactfirst{
+        margin-top:300px;
+    }
+
+}
+h1.shop{
+    left:50%;
+    margin-top: 50px;
+}
+h2.infoh2{
+    margin-top: 500px;
+    right:20%;
+    left:20%;
+    font-size: 35px;
+    color: rgb(59, 116, 113);
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    text-align: center;
+}
+h2.contacth2{
+    margin-top: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(90, 90, 90);
+    font-size: 44px;
+    text-align: center;
+
+
+}
+ul.contactul{
+    margin-top: 200px;
+    margin-right: 22px;
+    color: rgb(59, 116, 113);
+    font-size: 30px;
+    list-style:none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+ul.contactul li.contactsecond{
+    margin-top:70px;
+}
+ul.contactul li.contactfirst{
+    margin-right:47px;
+}
